@@ -55,4 +55,6 @@ function sendMail(){
 
 
 
-  
+function closeMenu(){
+    menu.classList.replace('d-block' , 'd-none')
+}
