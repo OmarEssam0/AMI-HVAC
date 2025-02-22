@@ -29,7 +29,7 @@
   </head>
 
   <body>
-    <div class="menu d-none">
+    <!-- <div class="menu d-none">
       <span class="menu-close cursor-pointer">
         <i class="fa-solid fa-xmark text-white"></i>
       </span>
@@ -51,27 +51,41 @@
             </li>
         </ul>
         <ul>
-    </div>
+    </div> -->
 
     <main>
       <header>
-        <div class="container">
-          <nav class="d-flex justify-content-between align-items-center">
-            <div class="imgLogo">
-              <img
-                src="assets/images/Logoo/cd26fa5d-eabb-44cb-bfbd-f2ba1b32f838-removebg-preview.png"
-                alt="Logo"
-                class="img-fluid"
-                width="150"
-              />
+        <nav class="navbar navbar-expand-lg align-items-center ">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/images/Logoo/cd26fa5d-eabb-44cb-bfbd-f2ba1b32f838-removebg-preview.png" alt="" class="img-fluid" width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="text-white">
+                <i class="fa-solid fa-bars"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="index.html"  class="nav-link active text-white" >Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="About.html"  class="nav-link  text-white" >About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="gallery.html"  class="nav-link  text-white" >gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a href="client.html"  class="nav-link  text-white" >Clients</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html"  class="nav-link  text-white" >Contacts</a>
+                </li>
+            </ul>
             </div>
-            <div
-              class="side-icon d-flex justify-content-center align-items-center text-white cursor-pointer"
-            >
-              <i class="fa-solid fa-sliders"></i>
-            </div>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </header>
       <div
         class="main-header text-white d-flex justify-content-center align-items-center flex-column container"
@@ -166,61 +180,6 @@
                       class="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      <i class="fa-solid fa-plus main-color fs-6"></i>
-                      <span class="ps-3 secound-color fw-bold">Engineers</span>
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseOne"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      <ul class="list-unstyled accordion-list secound-color">
-                        <ol>
-                          •Conceptual and Preliminary Engineering
-                        </ol>
-                        <ol>
-                          •Evaluation of Important Documents
-                        </ol>
-                        <ol>
-                          •Design Review and Value Engineering
-                        </ol>
-                        <ol>
-                          •Project Cost Estimation
-                        </ol>
-                        <ol>
-                          •Equipment and Materials Procurement
-                        </ol>
-                        <ol>
-                          •Planning and Scheduling
-                        </ol>
-                        <ol>
-                          •Detailed Design and Shop Drawings
-                        </ol>
-                        <ol>
-                          •Inspection, Quality Assurance, and Control
-                        </ol>
-                        <ol>
-                          •Testing and Commissioning
-                        </ol>
-                        <ol>
-                          •Operator Training
-                        </ol>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
                       data-bs-target="#collapseTwo"
                       aria-expanded="true"
                       aria-controls="collapseTwo"
@@ -286,6 +245,113 @@
                     </div>
                   </div>
                 </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <i class="fa-solid fa-plus main-color fs-6"></i>
+                      <span class="ps-3 secound-color fw-bold">Engineers</span>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-unstyled accordion-list secound-color">
+                        <ol>
+                          •Conceptual and Preliminary Engineering
+                        </ol>
+                        <ol>
+                          •Evaluation of Important Documents
+                        </ol>
+                        <ol>
+                          •Design Review and Value Engineering
+                        </ol>
+                        <ol>
+                          •Project Cost Estimation
+                        </ol>
+                        <ol>
+                          •Equipment and Materials Procurement
+                        </ol>
+                        <ol>
+                          •Planning and Scheduling
+                        </ol>
+                        <ol>
+                          •Detailed Design and Shop Drawings
+                        </ol>
+                        <ol>
+                          •Inspection, Quality Assurance, and Control
+                        </ol>
+                        <ol>
+                          •Testing and Commissioning
+                        </ol>
+                        <ol>
+                          •Operator Training
+                        </ol>
+                      </ul>
+                    </div>
+                  </div>
+                </div>      
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapsethere"
+                      aria-expanded="true"
+                      aria-controls="collapsethere"
+                    >
+                      <i class="fa-solid fa-plus main-color fs-6"></i>
+                      <span class="ps-3 fw-bold secound-color">FIREFIGHTING</span>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapsethere"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-unstyled accordion-list secound-color">
+                        <ol>
+                          The reliable protection systems we install have one main purpose which is to prevent the interruption of services necessary for the public welfare and avoid area wide conflagration, all the while putting the safety of life at the utmost priority.
+                        </ol>
+                        <ol>
+                          Fire suppression systems.
+                        </ol>
+                        <ol>
+                          • Fire pump rooms.
+                        </ol>
+                        <ol>
+                          • Clean agent systems.
+                        </ol>
+                        <ol>
+                          • Fire extinguishers.
+                        </ol>
+                        <ol>
+                          • Fire hose cabinets.
+                        </ol>
+                        <ol>
+                          • Fire hydrant systems.
+                        </ol>
+                        <ol>
+                          • Automatic sprinkler systems.
+                        </ol>
+                        <ol>
+                          • Dry and wet riser.
+                        </ol>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -293,7 +359,7 @@
             <div class="aboout-content my-5">
               <div class="img-about">
                 <img
-                  src="assets/images/AMI-04.jpg"
+                  src="assets/images/airf.jpeg"
                   alt="engineers"
                   class="img-fluid"
                 />

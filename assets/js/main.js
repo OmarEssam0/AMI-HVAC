@@ -30,16 +30,6 @@
 //   });
 
 
-let menu = document.querySelector('.menu')
-
-
-
-document.querySelector('.side-icon').addEventListener('click' , function(){
-    menu.classList.replace('d-none' ,'d-block')
-})
-document.querySelector('.menu-close').addEventListener('click' , function(){
-    menu.classList.replace('d-block' , 'd-none')
-})
 
 function sendMail(){
     var params ={
@@ -54,7 +44,3 @@ function sendMail(){
 }
 
 
-
-function closeMenu(){
-    menu.classList.replace('d-block' , 'd-none')
-}

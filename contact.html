@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AMI - HVAC</title>
+        <!-- owl  -->
+        <!-- <link rel="stylesheet" href="assets/css/owl.carousel.css" />
+        <link rel="stylesheet" href="assets/css/owl.theme.css" /> -->
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+          rel="stylesheet"
+        />
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="assets/css/all.min.css" />
+        <!-- main style -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <!-- headlogo -->
+        <link
+          rel="shortcut icon"
+          href="assets/images/Logoo/cd26fa5d-eabb-44cb-bfbd-f2ba1b32f838-removebg-preview.png"
+          type="image/x-icon"
+        />
+      </head>
+<body>
+    <header class="bg-secound">
+        <nav class="navbar navbar-expand-lg align-items-center ">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/Logoo/cd26fa5d-eabb-44cb-bfbd-f2ba1b32f838-removebg-preview.png" alt="" class="img-fluid" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="text-white">
+                <i class="fa-solid fa-bars"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="index.html"  class="nav-link text-white" >Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="About.html"  class="nav-link active text-white" >About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="gallery.html"  class="nav-link  text-white" >gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a href="client.html"  class="nav-link  text-white" >Clients</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html"  class="nav-link active text-white" >Contacts</a>
+                </li>
+            </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+       <!-- contact -->
+    <section id="Contacts" class="contact py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="contact-title">
+                <span class="text-capitalize main-color">Work inquiries</span>
+                <h2 class="text-white my-3">
+                  Questions? <br />
+                  Get in touch.
+                </h2>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <form>
+                <div class="d-flex gap-3 w-100 mb-3">
+                  <div class="w-100">
+                    <label for="FullName" class="text-white mb-2" >Name</label>
+                    <input
+                    id="FullName"
+                      id="1"
+                      type="text"
+                      placeholder="Name"
+                      class="form-control form-inputs"
+                    />
+                  </div>
+                  <div class="w-100">
+                    <label for="CompanyName" class="text-white mb-2" >Company</label>
+                    <input
+                    id="CompanyName"
+                      id="2"
+                      type="text"
+                      placeholder="Company"
+                      class="form-control form-inputs"
+                    />
+                  </div>
+                </div>
+                <div class="d-flex gap-3 w-100 mb-3">
+                  <div class="w-100">
+                    <label for="Email" class="text-white mb-2" >Email</label>
+                    <input
+                      id="Email"
+                      type="email"
+                      placeholder="Email"
+                      class="form-control form-inputs"
+                    />
+                  </div>
+                  <div class="w-100">
+                    <label for="PhoneNumber" class="text-white mb-2">Phone Number</label>
+                    <input
+                    id="PhoneNumber"
+                      type="text"
+                      placeholder="Phone Number"
+                      class="form-control form-inputs"
+                    />
+                  </div>
+                </div>
+                <div class="d-flex gap-3 w-100 mb-3">
+                  <div class="w-100">
+                    <label for="Message" class="text-white mb-2" >Message</label>
+                    <!-- <input id="3" type="email" placeholder="Email" class="form-control form-inputs"> -->
+                    <textarea
+                    id="Message"
+                      name=""
+                      placeholder="Message"
+                      class="form-control form-inputs"
+                      rows="6"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="d-flex gap-3 w-100 py-2">
+                  <div>
+                    <button class="main-btn" onclick="sendMail()">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="pt-5 text-center text-md-start bg-secound">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-3">
+              <div class="logo">
+                <img
+                  src="assets/images/Logoo/cd26fa5d-eabb-44cb-bfbd-f2ba1b32f838-removebg-preview.png"
+                  alt="AMI-HVAC"
+                  class="img-fluid"
+                  width="200"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="whoWeAre?  text-white">
+                <h3 class="fw-bold fs-6">Who We Are?</h3>
+                <p>
+                  Is a specialized Mechanical and contracting and trading company
+                  in air conditioning technology.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="Branch sec text-white">
+                <h3 class="fw-bold fs-6">Egypt</h3>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="mailto:Aya.Ami.Hvac@gmail.com"
+                      class="text-white text-decoration-none my-3 d-block"
+                    >
+                      <span class="sec text-white"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></span>
+                      Aya.Ami.Hvac@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="tel:01005554113"
+                      class="text-white text-decoration-none my-3 d-block"
+                    >
+                      <span class="sectext-white"
+                        ><i class="fa-solid fa-phone"></i
+                      ></span>
+                      01005554113
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="tel:010007425291"
+                      class="text-white text-decoration-none my-3 d-block"
+                    >
+                      <span class="sectext-white"
+                        ><i class="fa-solid fa-phone"></i
+                      ></span>
+                      010007425291
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none my-3 d-block"
+                    >
+                      <span class="sec text-white"
+                        ><i class="fa-solid fa-location-dot"></i
+                      ></span>
+                      Building 18, Adjacent 11/12, 1st Settlement, New Cairo
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="Branch sec text-white">
+                <h3 class="fw-bold fs-6">Social Media</h3>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                    target="_blank"
+                      href="https://www.facebook.com/Daikin.Powerr"
+                      class="text-white text-decoration-none my-3 d-block"
+                    >
+                      <span
+                        ><i class="fa-brands fa-facebook"></i></span>
+                      AMI-HVAC
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                    target="_blank"
+                      href="https://www.linkedin.com/company/ami-hvac-solutions/"
+                      class="text-white text-decoration-none my-3 d-block"
+                    >
+                      <span
+                        ><i class="fa-brands fa-linkedin"></i></span>
+                      AMI-HVAC Linked In
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                    target="_blank"
+                      href="https://www.instagram.com/ami.hvac?igsh=N25ldjEwYWw2NmZw"
+                      class="text-white text-decoration-none my-3 d-block"
+                    >
+                      <span
+                        ><i class="fa-brands fa-instagram"></i></span>
+                      AMI-HVAC Instagram
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                    target="_blank"
+                      href="https://wa.me/01000745291"
+                      class="text-white text-decoration-none my-3 d-block"
+                    >
+                      <span
+                        ><i class="fa-brands fa-whatsapp"></i></span>
+                        01000745291
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-white py-5">
+          ©2025 - AMI-HVAC | All right reserved
+        </div>
+      </footer>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init({
+       publicKey: "hnxDYEDJ9JjMuEcva",
+     });
+  })();
+</script>
+    <!-- <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script> -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

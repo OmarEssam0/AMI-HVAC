@@ -215,3 +215,12 @@ header nav .side-icon:hover {
     height: 300px !important; 
     border-radius: 10px;
   }
+  .active{
+    color: var(--main-color) !important;
+  }
+  .nav-link{
+    transition: .3s !important;
+  }
+  .nav-link:hover{
+    color: var(--main-color) !important;
+  }
